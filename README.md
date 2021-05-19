@@ -161,3 +161,18 @@ Design the architecture for the service described above. Create the Container le
 
 # Solution
  *** see the attached pictures of the container and component diagram
+ 
+According to C4Model, we need to produce :
+1)The Context Diagram (a very high level architecture diagram),
+2)The Container Diagram (more focus - for the external and internal tools)
+3)The Component Diagram (more,more focus per requirements)
+4)The Code (Class Diagram), for each requirement.
+
+On the Container.png, we have the main players according to the requirement.
+On the Component-01a.png, we have the main components for the initialization of the microservice
+On the Component-01b.png, we have the main components for the api -> Request POST /sendSms
+On the Component-02.png, we have the main components for the api -> Request POST /smsStatus
+
+Regards
+
+Antonis Vakondios
